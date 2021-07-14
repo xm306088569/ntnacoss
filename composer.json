@@ -7,6 +7,6 @@
         }
     ],
     "require": {
-        "alibaba/nacos": "*"
+        "alibaba/nacos": "v1.0.1"
     }
 }
