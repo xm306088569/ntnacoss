@@ -3,7 +3,7 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
-
+use Nt\Nacos\Ntnacos;
 class NacosRefreshConfig extends Command
 {
     /**
@@ -38,6 +38,6 @@ class NacosRefreshConfig extends Command
     public function handle()
     {
         //
-        command_nacos();
+        (new Ntnacos())->command_nacos();
     }
 }

@@ -12,5 +12,14 @@
         }
     },
     "require": {
+        "alibaba/nacos": "^1.0",
+        "guzzlehttp/guzzle": "v6.5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nt\\Nacos\\NtnacosServiceProvider"
+            ]
+        }
     }
 }
