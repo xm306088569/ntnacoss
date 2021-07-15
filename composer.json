@@ -6,6 +6,11 @@
             "email": "306088569@qq.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Nt\\Nacos\\": "src/"
+        }
+    },
     "require": {
     }
 }
