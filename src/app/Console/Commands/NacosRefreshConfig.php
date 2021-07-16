@@ -38,6 +38,17 @@ class NacosRefreshConfig extends Command
     public function handle()
     {
         //
-        (new Ntnacos())->command_nacos();
+      //  (new Ntnacos())->command_nacos();
+
+      $env= config('nacosenv');
+      (new \Dotenv\Loader([], new \Dotenv\Environment\DotenvFactory(), true))->loadDirect(
+             \alibaba\nacos\Nacos::init(
+                 $env['NACOS_HOST'] ,
+                 $env['NACOS_ENV'],
+                 $env['NACOS_DATA_ID'],
+                 $env['NACOS_GROUP'],
+                 ""
+             )->listener()
+         );
     }
 }
