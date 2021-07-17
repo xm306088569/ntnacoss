@@ -1,5 +1,5 @@
 # ntnacos
-南棠配置中心laravel项目配置0.1
+南棠配置中心laravel项目配置0.2
 
 注意
 这个需要   guzzlehttp/guzzle v6.5.5    7.0的请先删掉
