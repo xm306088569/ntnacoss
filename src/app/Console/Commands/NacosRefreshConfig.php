@@ -47,6 +47,8 @@ class NacosRefreshConfig extends Command
                  $env['NACOS_ENV'],
                  $env['NACOS_DATA_ID'],
                  $env['NACOS_GROUP'],
+                 $env['USER_NAME'],
+                 $env['PASSWORD'],
                  ""
              )->listener()
          );
