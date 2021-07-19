@@ -12,8 +12,8 @@
         }
     },
     "require": {
-        "alibaba/nacos": "^1.0",
-        "guzzlehttp/guzzle": "v6.5.5"
+        "lh4yp/nacos-v2": "dev-master",
+        "guzzlehttp/guzzle": "^7.3.0"
     },
     "extra": {
         "laravel": {
