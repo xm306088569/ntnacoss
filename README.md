@@ -26,3 +26,7 @@ $env= include dirname(__DIR__).'/config/nacosenv.php';
 
 第4步
 php artisan nacos:listener
+
+
+注意本地开发关闭
+配置变量NACOS_ENV=local再启动项目
